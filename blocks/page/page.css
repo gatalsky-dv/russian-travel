@@ -1,0 +1,27 @@
+.page {
+  position: relative;
+  min-width: 1280px;
+  min-height: 6875px;
+  background: #2A2C2F;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1280px;
+    min-height: 6895px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 768px;
+    min-height: 6855px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .page {
+    min-width: 320px;
+    min-height: 10023px;
+  }
+}

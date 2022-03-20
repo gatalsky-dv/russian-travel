@@ -1,0 +1,24 @@
+.header__lang-link_active {
+  width: 30px;
+  text-decoration-line: underline;
+}
+
+/* @media screen and (min-width: 1024px) {
+  .header__lang-link_active {
+
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  .header__lang-link_active {
+    width: 30px;
+    height: 28px;
+  }
+}
+
+@media screen and (min-width: 319px) {
+  .header__lang-link_active {
+    width: 22px;
+    height: 20px;
+  }
+}
