@@ -1,5 +1,5 @@
 .lead {
-  /* position: absolute; */
+  position: relative;
   min-width: 984px;
   min-height: 1005px;
   position: relative;
@@ -7,4 +7,25 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    min-width: 928px;
+    min-height: 962px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    min-width: 768px;
+    min-height: 862px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    min-width: 320px;
+    min-height: 406px;
+  }
 }

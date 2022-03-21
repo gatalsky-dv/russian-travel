@@ -4,6 +4,25 @@
 
   width: 984px;
   height: 615px;
-  /* left: 148px;
-  top: 504px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: 928px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  }
 }

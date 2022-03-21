@@ -1,11 +1,13 @@
 .lead__caption {
   margin: 0;
   padding-top: 8px;
+  position: absolute;
 
   width: 158px;
   height: 14px;
-  left: 148px;
-  top: 1127px;
+
+  left: 11.56%;
+  top: 100%;
 
   font-family: 'Inter';
   font-style: normal;
@@ -18,4 +20,22 @@
   text-transform: uppercase;
 
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    left: 4.69%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    left: 3.13%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    left: 5%;
+  }
 }
