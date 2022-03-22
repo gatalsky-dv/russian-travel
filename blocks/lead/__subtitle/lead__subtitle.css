@@ -19,21 +19,21 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead__subtitle {
     width: 640px;
     height: 72px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__subtitle {
     width: 640px;
     height: 72px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .lead__subtitle {
     width: 288px;
     height: 40px;

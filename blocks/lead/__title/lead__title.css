@@ -11,28 +11,27 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
-  /* or 104% */
+  line-height: 104%;
 
   text-align: center;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .lead__title {
     width: 720px;
     height: 200px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .lead__title {
     width: 720px;
     height: 200px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .lead__title {
     width: 288px;
     height: 88px;

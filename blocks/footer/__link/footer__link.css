@@ -1,0 +1,21 @@
+.footer__link {
+
+}
+
+@media (max-width: 1024px) {
+  .footer__link {
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__link {
+    
+  }
+}
