@@ -1,21 +1,24 @@
 .intro__list {
-
+  max-width: 690px;
+  height: 90px;
+  margin: 0;
+  padding-top: 33px;
 }
 
 @media (max-width: 1024px) {
   .intro__list {
-
+    max-width: 690px;
   }
 }
 
 @media (max-width: 768px) {
   .intro__list {
-
+    max-width: 720px;
   }
 }
 
 @media (max-width: 320px) {
   .intro__list {
-
+    max-width: 288px;
   }
 }
