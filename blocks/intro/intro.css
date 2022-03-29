@@ -1,7 +1,7 @@
 .intro {
   margin: 0;
-  min-width: 690px;
-  min-height: 429px;
+  max-width: 690px;
+  max-height: 429px;
   margin-left: 148px;
   padding-top: 92px;
 }
