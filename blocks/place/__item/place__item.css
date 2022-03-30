@@ -1,0 +1,31 @@
+.place__item {
+  margin: 0;
+  max-width: 984px;
+  max-height: 660px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .place__item {
+    max-width: 92px;
+    max-height: 564px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__item {
+    max-width: 720px;
+    max-height: 484px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__item {
+    max-width: 320px;
+    max-height: 1042px;
+  }
+}

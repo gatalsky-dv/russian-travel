@@ -4,6 +4,9 @@
   max-height: 660px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 @media (max-width: 1024px) {
