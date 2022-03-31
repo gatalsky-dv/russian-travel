@@ -1,8 +1,8 @@
 @font-face {
   src: url('./Inter-Regular.ttf') format('truetype'),
-       url('./Inter-Regular.eot') format('eot'),
-       url('./Inter-Regular.woff') format('woff'),
-       url('./Inter-Regular.woff2') format('woff2');
+    url('./Inter-Regular.eot') format('eot'),
+    url('./Inter-Regular.woff') format('woff'),
+    url('./Inter-Regular.woff2') format('woff2');
   font-family: 'Inter';
   font-weight: 400;
   font-style: normal;
@@ -10,9 +10,9 @@
 
 @font-face {
   src: url(./Inter-Black.ttf) format('truetype'),
-       url(./Inter-Black.eot) format('eot'),
-       url(./Inter-Black.woff) format('woff'),
-       url(./Inter-Black.woff2) format('woff2');
+    url(./Inter-Black.eot) format('eot'),
+    url(./Inter-Black.woff) format('woff'),
+    url(./Inter-Black.woff2) format('woff2');
   font-family: 'Inter';
   font-weight: 900;
   font-style: normal;
@@ -20,9 +20,9 @@
 
 @font-face {
   src: url(./Inter-Bold.ttf) format('truetype'),
-       url(./Inter-Bold.eot) format('eot'),
-       url(./Inter-Bold.woff) format('woff'),
-       url(./Inter-Bold.woff2) format('woff2');
+    url(./Inter-Bold.eot) format('eot'),
+    url(./Inter-Bold.woff) format('woff'),
+    url(./Inter-Bold.woff2) format('woff2');
   font-family: 'Inter';
   font-weight: 400;
   font-style: normal;
