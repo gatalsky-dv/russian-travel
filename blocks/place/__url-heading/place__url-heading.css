@@ -2,13 +2,7 @@
   color: #FFFFFF;
 }
 
-@media (min-width: 1280px) {
-  .place__url-heading {
-    
-  }
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 320px) {
   .place__url-heading {
     
   }
@@ -20,7 +14,13 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
+  .place__url-heading {
+    
+  }
+}
+
+@media (min-width: 1280px) {
   .place__url-heading {
     
   }

@@ -7,17 +7,10 @@
   justify-content: flex-start;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 320px) {
   .place__item {
-    max-width: 984px;
-    max-height: 660px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .place__item {
-    max-width: 920px;
-    max-height: 564px;
+    max-width: 320px;
+    max-height: 1042px;
   }
 }
 
@@ -28,9 +21,16 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
   .place__item {
-    max-width: 320px;
-    max-height: 1042px;
+    max-width: 920px;
+    max-height: 564px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__item {
+    max-width: 984px;
+    max-height: 660px;
   }
 }
