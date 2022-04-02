@@ -1,16 +1,12 @@
 .lead__figure {
   margin: 0;
+  border: 1px solid red;
 }
 
-@media (min-width: 1280px) {
-  .lead__figure {
-    left: 4.69%;
-  }
-}
 
-@media (min-width: 1024px) {
+@media (min-width: 320px) {
   .lead__figure {
-    left: 4.69%;
+    left: 5%;
   }
 }
 
@@ -20,8 +16,14 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
   .lead__figure {
-    left: 5%;
+    left: 4.69%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__figure {
+    left: 4.69%;
   }
 }

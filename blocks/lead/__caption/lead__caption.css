@@ -14,17 +14,12 @@
   text-transform: uppercase;
 
   color: #FFFFFF;
+  border: 1px solid red;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 320px) {
   .lead__caption {
-    left: 4.69%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead__caption {
-    left: 4.69%;
+    left: 5%;
   }
 }
 
@@ -34,8 +29,14 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
   .lead__caption {
-    left: 5%;
+    left: 4.69%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__caption {
+    left: 4.69%;
   }
 }

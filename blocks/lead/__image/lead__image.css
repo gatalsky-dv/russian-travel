@@ -1,19 +1,13 @@
 .lead__image {
   margin: 0;
   padding-top: 64px;
+  border: 1px solid red;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 320px) {
   .lead__image {
-    width: 928px;
-    height: 615px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead__image {
-    width: 928px;
-    height: 500px;
+    width: 320px;
+    height: 200px;
   }
 }
 
@@ -24,9 +18,18 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 1024px) {
   .lead__image {
-    width: 320px;
-    height: 200px;
+    width: 928px;
+    height: 500px;
   }
 }
+
+@media (min-width: 1280px) {
+  .lead__image {
+    width: 928px;
+    height: 615px;
+  }
+}
+
+

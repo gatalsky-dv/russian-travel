@@ -4,25 +4,25 @@
 
 @media screen and (min-width: 320px) {
   .header__lang-link_active {
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
+    max-height: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header__lang-link_active {
-    width: 30px;
+    max-width: 30px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header__lang-link_active {
-    width: 30px;
+    max-width: 30px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header__lang-link_active {
-    width: 30px;
+    max-width: 30px;
   }
 }

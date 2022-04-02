@@ -10,31 +10,10 @@
   font-size: 30px;
   line-height: 36px;
 /* or 120% */
-
   text-align: center;
 
   color: #FFFFFF;
-}
-
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    width: 640px;
-    height: 72px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    width: 640px;
-    height: 72px;
-  }
-}
-
-@media (min-width: 768px) {
-  .lead__subtitle {
-    width: 640px;
-    height: 72px;
-  }
+  border: 1px solid red;
 }
 
 @media (min-width: 320px) {
@@ -45,3 +24,26 @@
     line-height: 125%;
   }
 }
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    width: 640px;
+    height: 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__subtitle {
+    width: 640px;
+    height: 72px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    width: 640px;
+    height: 72px;
+  }
+}
+
+
