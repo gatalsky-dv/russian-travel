@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .header__lang-link_active {
     max-width: 30px;
   }
@@ -25,4 +25,4 @@
   .header__lang-link_active {
     max-width: 30px;
   }
-}
+} */

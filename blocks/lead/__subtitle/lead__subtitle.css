@@ -1,25 +1,16 @@
 .lead__subtitle {
   margin: 0;
-  padding-top: 32px;
-
-  left: 320px;
-  top: 368px;
-
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-/* or 120% */
   text-align: center;
-
   color: #FFFFFF;
-  border: 1px solid red;
 }
 
 @media (min-width: 320px) {
   .lead__subtitle {
-    width: 288px;
-    height: 40px;
+    max-width: 288px;
+    min-height: 40px;
+    padding-top: 16px;
     font-size: 16px;
     line-height: 125%;
   }
@@ -27,23 +18,30 @@
 
 @media (min-width: 768px) {
   .lead__subtitle {
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
+    min-height: 72px;
+    padding-top: 32px;
+    font-size: 30px;
+    line-height: 120%;
   }
 }
-
+/* 
 @media (min-width: 1024px) {
   .lead__subtitle {
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
+    min-height: 72px;
+    font-size: 30px;
+    line-height: 120%;
   }
-}
-
+} */
+/* 
 @media (min-width: 1280px) {
   .lead__subtitle {
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
+    min-height: 72px;
+    font-size: 30px;
+    line-height: 120%;
   }
-}
+} */
 
 

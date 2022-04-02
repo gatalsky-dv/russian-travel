@@ -8,15 +8,14 @@
   font-style: normal;
 }
 
- /* @font-face {
+  @font-face {
   src: url(./Inter-Black.ttf) format('truetype'),
     url(./Inter-Black.eot) format('eot'),
     url(./Inter-Black.woff) format('woff'),
     url(./Inter-Black.woff2) format('woff2');
   font-family: 'Inter';
   font-weight: 900;
-  /* font-style: black; */
-} */
+}
 
 /* @font-face {
   src: url(./Inter-Bold.ttf) format('truetype'),
@@ -26,4 +25,4 @@
   font-family: 'Inter';
   font-weight: 400;
   font-style: bold;
-}  */
+} */
