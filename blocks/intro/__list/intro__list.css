@@ -1,5 +1,8 @@
 .intro__list {
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
   height: 90px;
   margin: 0;
   padding-top: 33px;

@@ -1,28 +1,3 @@
 .lead__figure {
   margin: 0;
 }
-
-
-@media (min-width: 320px) {
-  .lead__figure {
-
-  }
-}
-
-@media (min-width: 768px) {
-  .lead__figure {
-
-  }
-}
-
-/* @media (min-width: 1024px) {
-  .lead__figure {
-    padding-top: 56px;
-  }
-} */
-
-@media (min-width: 1280px) {
-  .lead__figure {
-
-  }
-}
