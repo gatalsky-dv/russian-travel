@@ -9,19 +9,25 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1280px) {
   .place__website {
     
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1024px) {
   .place__website {
     
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 768px) {
+  .place__website {
+    
+  }
+}
+
+@media (min-width: 320px) {
   .place__website {
     
   }

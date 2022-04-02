@@ -1,27 +1,34 @@
 .page {
-  position: relative;
-  min-width: 1280px;
-  min-height: 6875px;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Inter', Arial, sans-serif;
   background: #2A2C2F;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1280px) {
+  .page {
+    min-width: 1280px;
+    height: 6875px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .page {
     min-width: 1024px;
-    min-height: 6895px;
+    height: 6895px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .page {
     min-width: 768px;
-    min-height: 6855px;
+    height: 6855px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .page {
     min-width: 320px;
-    min-height: 10023px;
+    height: 10023px;
   }
 }

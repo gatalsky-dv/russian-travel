@@ -1,7 +1,6 @@
 .place {
   margin: 0;
-  max-width: 984px;
-  max-height: 660px;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,21 +8,28 @@
   align-content: center;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1280px) {
   .place {
-    max-width: 92px;
+    max-width: 984px;
+    max-height: 660px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    max-width: 920px;
     max-height: 564px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .place {
     max-width: 720px;
     max-height: 484px;
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .place {
     max-width: 320px;
     max-height: 1042px;
