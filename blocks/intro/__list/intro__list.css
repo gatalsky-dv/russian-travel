@@ -1,18 +1,13 @@
 .intro__list {
+  border: 1px solid red;
   height: 90px;
   margin: 0;
   padding-top: 33px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 320px) {
   .intro__list {
-    max-width: 690px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .intro__list {
-    max-width: 690px;
+    max-width: 288px;
   }
 }
 
@@ -22,8 +17,14 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1024px) {
   .intro__list {
-    max-width: 288px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__list {
+    max-width: 690px;
   }
 }
