@@ -1,9 +1,7 @@
 .intro__list-text {
-  border: 1px solid red;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0;
-
   color: #FFFFFF;
 }
 
@@ -14,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .intro__list-text {
     font-size: 12px;
     line-height: 150%;
@@ -33,4 +31,4 @@
     font-size: 12px;
     line-height: 150%;
   }
-}
+} */

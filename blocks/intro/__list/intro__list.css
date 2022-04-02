@@ -1,10 +1,10 @@
 .intro__list {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  height: 90px;
+  align-items: inherit;
   margin: 0;
+  padding: 0;
   padding-top: 33px;
 }
 

@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 
 /* header */
@@ -26,6 +26,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-text/intro__list-text.css);
+@import url(../blocks/intro/__list-text/_span/intro__list-text_span.css);
 
 /* photo-grid */
 
