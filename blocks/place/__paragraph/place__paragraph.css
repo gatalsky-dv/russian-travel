@@ -1,5 +1,7 @@
 .place__paragraph {
   color: #FFFFFF;
+  display: flex;
+  align-self: center;
 }
 
 @media (min-width: 320px) {

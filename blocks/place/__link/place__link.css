@@ -1,4 +1,5 @@
 .place__link {
+  border: 1px solid red;
   color: #FFFFFF;
 }
 

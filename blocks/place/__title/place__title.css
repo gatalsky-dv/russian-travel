@@ -1,4 +1,7 @@
 .place__title {
+  border: 1px solid red;
+  display: flex;
+  align-self: flex-start;
   margin: 0;
   font-weight: 900;
   color: #FFFFFF;
