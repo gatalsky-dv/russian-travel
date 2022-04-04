@@ -1,28 +1,35 @@
 .place__link {
-  border: 1px solid red;
   color: #FFFFFF;
+  margin: 0;
+  text-decoration-line: underline;
+}
+
+.place__link:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 320px) {
   .place__link {
-    
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
   }
 }
-
+/* 
 @media (min-width: 768px) {
   .place__link {
-    
   }
-}
-
+} */
+/* 
 @media (min-width: 1024px) {
   .place__link {
-    
-  }
-}
 
+  }
+} */
+/* 
 @media (min-width: 1280px) {
   .place__link {
-    
+
   }
-}
+} */

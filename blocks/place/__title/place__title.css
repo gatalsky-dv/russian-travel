@@ -1,16 +1,16 @@
 .place__title {
-  border: 1px solid red;
-  display: flex;
-  align-self: flex-start;
   margin: 0;
   font-weight: 900;
   color: #FFFFFF;
+  display: grid;
+  justify-content: start;
+  align-content: end;
 }
 
 @media (min-width: 320px) {
   .place__title {
     max-width: 288px;
-    max-height: 35px;
+    min-height: 35px;
     font-size: 32px;
     line-height: 109%;
   }
@@ -19,7 +19,7 @@
 @media (min-width: 768px) {
   .place__title {
     max-width: 340px;
-    max-height: 46px;
+    min-height: 46px;
     font-size: 42px;
     line-height: 110%;
   }
@@ -28,7 +28,7 @@
 @media (min-width: 1024px) {
   .place__title {
     max-width: 440px;
-    max-height: 152px;
+    min-height: 76px;
     font-size: 72px;
     line-height: 106%;
   }
@@ -37,6 +37,5 @@
 @media (min-width: 1280px) {
   .place__title {
     max-width: 460px;
-    max-height: 152px;
   }
 }

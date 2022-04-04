@@ -1,28 +1,31 @@
 .place__url-heading {
-  border: 1px solid red;
-  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #AAAAAA;
 }
 
 @media (min-width: 320px) {
   .place__url-heading {
-    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
   }
 }
-
+/* 
 @media (min-width: 768px) {
   .place__url-heading {
-    
-  }
-}
 
+  }
+} */
+/* 
 @media (min-width: 1024px) {
   .place__url-heading {
-    
-  }
-}
 
+  }
+} */
+/* 
 @media (min-width: 1280px) {
   .place__url-heading {
-    
+
   }
-}
+} */
