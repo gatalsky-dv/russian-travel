@@ -1,5 +1,11 @@
 .place__website {
+  border: 1px solid red;
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
   padding-left: 40px;
   right: 176px;
   padding-top: 198px;
@@ -9,19 +15,25 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 320px) {
   .place__website {
     
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .place__website {
     
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) {
+  .place__website {
+    
+  }
+}
+
+@media (min-width: 1280px) {
   .place__website {
     
   }

@@ -11,11 +11,13 @@
 
     <header class="header">
       <div class="header__logo"></div>
-      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
+      <div class="header__lang">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
+    </div>
     </header>
 
-    <main class="content">
+     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -34,11 +36,11 @@
           взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и 
           описали некоторые интересные места, достойные вашего отпуска.</blockquote>
         <ul class="intro__list">
-          <li class="intro__list-text">Часовых поясов 11</li>
-          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-text">Природных заповедников 105</li>
-          <li class="intro__list-text">Аэропортов 241</li>
+          <li class="intro__list-text"><span class="intro__list-text_span">Часовых поясов </span>11</li>
+          <li class="intro__list-text"><span class="intro__list-text_span">Объектов природного наследия ЮНЕСКО </span>12</li>
+          <li class="intro__list-text"><span class="intro__list-text_span">Объектов культурного наследия ЮНЕСКО </span>16</li>
+          <li class="intro__list-text"><span class="intro__list-text_span">Природных заповедников </span>105</li>
+          <li class="intro__list-text"><span class="intro__list-text_span">Аэропортов </span>241</li>
         </ul>
       </section>
 
@@ -58,24 +60,25 @@
       </section>
 
       <section class="places">
-        <ul class="place">          
-          <li class="place__item">
+        <article class="place">          
+          <div class="place__item">
             <h4 class="place__title">Куршская коса</h4>
             <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
-            <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
-            </div>
-            <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — 
+          </div>  
+          <div class="place__text">
+            <p class="place__url-heading">URL</p>
+            <a href="http://park-kosa.ru/" class="place__link">park-kosa.ru</a>
+          
+            <!-- <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — 
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
               Уникальная природная зона на краю российского анклава.</p>
             <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя 
               там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших 
               приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, 
-              прохладного моря.</p>
-          </li>          
-        </ul>
-        <ul class="place">          
+              прохладного моря.</p> -->
+          </div>          
+        </article>
+        <!-- <ul class="place">          
           <li class="place__item">
             <h4 class="place__title">Кольский</h4>
             <img src="./images/place-kolsky.jpg" alt="Кольский полуостров" class="place__image">
@@ -136,13 +139,13 @@
               видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. 
               А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </li>
-        </ul>
+        </ul> -->
       </section>
 
-      <section class="cover">
+      <!-- <section class="cover">
         <h4 class="cover__title">До Байкала «на собаках»</h4>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      </section>
+      </section> -->
     </main>
 
     <footer class="footer">

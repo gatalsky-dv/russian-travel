@@ -1,41 +1,45 @@
 .lead__title {
   margin: 0;
-  padding-top: 56px;
-  padding-left: 280px;
-  padding-right: 280px;
-
-  width: 720px;
-  height: 200px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 900;
-  font-size: 96px;
   line-height: 104%;
-
   text-align: center;
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 320px) {
   .lead__title {
-    width: 720px;
-    height: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__title {
-    width: 720px;
-    height: 200px;
-  }
-}
-
-@media (max-width: 320px) {
-  .lead__title {
-    width: 288px;
-    height: 88px;
+    max-width: 288px;
+    min-height: 88px;
     font-size: 40px;
     line-height: 110%;
   }
 }
+
+@media (min-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+    min-height: 200px;
+    font-size: 96px;
+    line-height: 104%;
+  }
+}
+/* 
+@media (min-width: 1024px) {
+  .lead__title {
+    max-width: 720px;
+    min-height: 200px;
+    font-size: 96px;
+    line-height: 104%;
+  }
+} */
+/* 
+@media (min-width: 1280px) {
+  .lead__title {
+    max-width: 720px;
+    min-height: 200px;
+    font-size: 96px;
+    line-height: 104%;
+  }
+} */
+
+
