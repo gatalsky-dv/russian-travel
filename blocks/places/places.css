@@ -1,6 +1,5 @@
 .places {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 
 @media (min-width: 320px) {
@@ -8,6 +7,7 @@
     min-width: 95vw;
     min-height: 100%;
     margin: 64px 0 41px 0;
+    row-gap: 50px;
   }
 }
 
@@ -15,7 +15,8 @@
   .places {
     min-width: 93.75vw;
     min-height: 100%;
-    margin: 88px 0 90px 0;
+    margin: 88px 0 65px 0;
+    row-gap: 73px;
   }
 }
 
@@ -23,7 +24,8 @@
   .places {
     min-width: 90.63vw;
     min-height: 100%;
-    margin: 92px auto;
+    margin: 12px auto 92px auto;
+    row-gap: 80px;
   }
 }
 
