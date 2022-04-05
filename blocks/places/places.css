@@ -6,23 +6,23 @@
 @media (min-width: 320px) {
   .places {
     min-width: 95vw;
-    min-height: 5177px;
-    margin: 64px auto;
+    min-height: 100%;
+    margin: 64px 0 41px 0;
   }
 }
 
 @media (min-width: 768px) {
   .places {
     min-width: 93.75vw;
-    min-height: 2808px;
-    margin: 88px auto;
+    min-height: 100%;
+    margin: 88px 0 90px 0;
   }
 }
 
 @media (min-width: 1024px) {
   .places {
     min-width: 90.63vw;
-    min-height: 3292px;
+    min-height: 100%;
     margin: 92px auto;
   }
 }
@@ -30,6 +30,6 @@
 @media (min-width: 1280px) {
   .places {
     max-width: 76.88vw;
-    min-height: 3392px;
+    min-height: 100%;
   }
 }

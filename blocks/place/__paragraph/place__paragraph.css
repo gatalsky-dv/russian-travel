@@ -6,18 +6,18 @@
 
 @media (min-width: 320px) {
   .place__paragraph {
-    padding-bottom: 32px;
+    padding-bottom: 25px;
     font-size: 16px;
     line-height: 163%;
     margin: 0 auto;
   }
 }
-
+/* 
 @media (min-width: 768px) {
   .place__paragraph {
-    padding-bottom: 25px;
+
   }
-}
+} */
 
 @media (min-width: 1024px) {
   .place__paragraph {
