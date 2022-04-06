@@ -7,7 +7,7 @@
 @media screen and (min-width: 320px) {
   .intro {
     margin: 64px auto 0 auto;
-    max-width: 288px;
+    min-width: 288px;
     min-height: 754px;
   }
 }
@@ -15,7 +15,7 @@
 @media screen and (min-width: 768px) {
   .intro {
     margin: 88px auto 0 auto;
-    max-width: 720px;
+    min-width: 720px;
     min-height: 429px;
   }
 }
@@ -24,16 +24,12 @@
   .intro {
     margin: 92px auto 0 auto;
     margin-left: calc((100% - 1024px)/2 + 48px);
-    max-width: 690px;
-    min-height: 429px;
+    min-width: 690px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    margin: 92px auto 0 auto;
     margin-left: calc((100% - 1280px)/2 + 148px);
-    max-width: 690px;
-    min-height: 429px;
   }
 }

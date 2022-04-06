@@ -8,7 +8,7 @@
 
 @media (min-width: 320px) {
   .lead__subtitle {
-    max-width: 288px;
+    min-width: 288px;
     min-height: 40px;
     padding-top: 16px;
     font-size: 16px;
@@ -18,30 +18,10 @@
 
 @media (min-width: 768px) {
   .lead__subtitle {
-    max-width: 640px;
+    min-width: 640px;
     min-height: 72px;
     padding-top: 32px;
     font-size: 30px;
     line-height: 120%;
   }
 }
-/* 
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    max-width: 640px;
-    min-height: 72px;
-    font-size: 30px;
-    line-height: 120%;
-  }
-} */
-/* 
-@media (min-width: 1280px) {
-  .lead__subtitle {
-    max-width: 640px;
-    min-height: 72px;
-    font-size: 30px;
-    line-height: 120%;
-  }
-} */
-
-

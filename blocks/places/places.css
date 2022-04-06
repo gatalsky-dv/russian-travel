@@ -31,7 +31,7 @@
 
 @media (min-width: 1280px) {
   .places {
-    max-width: 76.88vw;
+    min-width: 76.88vw;
     min-height: 100%;
   }
 }
