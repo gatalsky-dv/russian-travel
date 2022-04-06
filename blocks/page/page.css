@@ -8,27 +8,6 @@
 @media screen and (min-width: 320px) {
   .page {
     width: 100%;
-    min-height: 10023px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .page {
-    width: 100%;
-    min-height: 6855px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-   width: 100%;
-    min-height: 6895px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    width: 100%;
-    min-height: 6875px;
+    min-height: 100%;
   }
 }
