@@ -25,23 +25,3 @@
     line-height: 120%;
   }
 }
-/* 
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    max-width: 640px;
-    min-height: 72px;
-    font-size: 30px;
-    line-height: 120%;
-  }
-} */
-/* 
-@media (min-width: 1280px) {
-  .lead__subtitle {
-    max-width: 640px;
-    min-height: 72px;
-    font-size: 30px;
-    line-height: 120%;
-  }
-} */
-
-

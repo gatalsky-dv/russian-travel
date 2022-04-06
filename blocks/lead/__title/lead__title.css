@@ -23,23 +23,3 @@
     line-height: 104%;
   }
 }
-/* 
-@media (min-width: 1024px) {
-  .lead__title {
-    max-width: 720px;
-    min-height: 200px;
-    font-size: 96px;
-    line-height: 104%;
-  }
-} */
-/* 
-@media (min-width: 1280px) {
-  .lead__title {
-    max-width: 720px;
-    min-height: 200px;
-    font-size: 96px;
-    line-height: 104%;
-  }
-} */
-
-

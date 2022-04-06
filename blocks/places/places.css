@@ -14,7 +14,6 @@
 @media (min-width: 768px) {
   .places {
     min-width: 93.75vw;
-    min-height: 100%;
     margin: 88px 0 65px 0;
     row-gap: 73px;
   }
@@ -23,7 +22,6 @@
 @media (min-width: 1024px) {
   .places {
     min-width: 90.63vw;
-    min-height: 100%;
     margin: 12px auto 92px auto;
     row-gap: 80px;
   }
@@ -32,6 +30,5 @@
 @media (min-width: 1280px) {
   .places {
     max-width: 76.88vw;
-    min-height: 100%;
   }
 }
