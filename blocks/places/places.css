@@ -22,7 +22,7 @@
 @media (min-width: 1024px) {
   .places {
     min-width: 90.63vw;
-    margin: 12px auto 92px auto;
+    margin: 92px auto 92px auto;
     row-gap: 80px;
   }
 }
