@@ -1,26 +1,3 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0;
-}
-
-@media screen and (min-width: 320px) {
-  .cover {
-    min-width: 100%;
-    min-height: 100%;
-    margin-bottom: 64px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .cover {
-    margin-bottom: 88px;  
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover {
-    margin-bottom: 92px;
-  }
 }

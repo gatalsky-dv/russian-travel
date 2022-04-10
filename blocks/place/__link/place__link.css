@@ -6,6 +6,7 @@
 
 .place__link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 @media (min-width: 320px) {
